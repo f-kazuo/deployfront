@@ -17,4 +17,4 @@ const config: Config = {
   },
   plugins: [],
 };
-module.exports = nextConfig
+export default config;
