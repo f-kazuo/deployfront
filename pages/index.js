@@ -6,7 +6,7 @@ export default function Home() {
   const [getResponse, setGetResponse] = useState('');
 
   const handleGetRequest = async () => {
-    const res = await fetch('tech0-gen-8-step3-testapp-py1-10.azurewebsites.net', {
+    const res = await fetch('https://tech0-gen-8-step3-testapp-py1-10.azurewebsites.net', {
       method: 'GET',
     });
     const data = await res.json();
